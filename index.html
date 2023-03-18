@@ -19,8 +19,8 @@
   <body>
     <header class="header">
       <div class="container">
-        <nav class="header-nav">
-          <a class="header-logo" href="./index.html"> <span class="color-web">Web</span>Studio</a>
+        <a class="header-logo" href="./index.html"> <span class="color-web">Web</span>Studio</a>
+        <nav class="header-nav">         
           <ul class="header-link">
             <li><a class="nav-link current" href="">Studio</a></li>
             <li><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
@@ -33,7 +33,64 @@
             <li><a class="contacts-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
           </ul>
         </address>
+        <div class="header-button">
+          <button class="burger-button" type="button" data-modal-open>
+            <svg class="burger-icon" width="32px" height="22px">
+              <use href="./images/icons.svg#icon-burger"></use>
+          </svg>          
+          </button>
+        </div> 
       </div>
+      <div class="header-button-menu" data-modal>
+            <button type="button" class="modal-close" data-modal-close>
+              <svg class="modal-close-vector" width="8px" height="8px">
+                <use href="./images/icons.svg#icon-vector"></use>
+              </svg>
+            </button>
+            <nav>         
+            <ul class="header-button-link">
+              <li><a class="nav-link" href="">Studio</a></li>
+              <li><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
+              <li><a class="nav-link" href="">Contacts</a></li>
+            </ul>
+            </nav>
+            <address class="header-button-contacts">
+              <ul class="contacts-list">
+                <li><a class="contacts-link" href="mailto:info@devstudio.com"><span class="header-button-mail">info@devstudio.com</span></a></li>
+                <li><a class="contacts-link" href="tel:+110001111111"><span class="header-button-phone">+11 (000) 111-11-11</span></a></li>
+              </ul>
+            </address>
+            <ul class="social-icons">
+              <li>
+                <a class="icon-box" href="#">
+                  <svg width="16px" height="16px">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="icon-box" href="#">
+                  <svg width="16px" height="16px">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="icon-box" href="#">
+                  <svg width="16px" height="16px">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="icon-box" href="#">
+                  <svg width="16px" height="16px">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>                   
+          </div>
     </header>
     <main>  
       <section class="hero hero-bg">
@@ -42,7 +99,7 @@
         <button class="hero-button" type="button" data-modal-open>Order Service</button>
       </div>
       </section>
-      <section class="section features">
+      <!-- <section class="section features">
         <div class="container">
           <h2 hidden>Features</h2>
         <ul class="features-list">
@@ -320,9 +377,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container footer-section">
         <div class="footer-company">
           <a class="footer-logo" href="./index.html"> <span class="color-web">Web</span>Studio</a>
@@ -377,7 +434,7 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
 
 
     <!-- MODAL -->
