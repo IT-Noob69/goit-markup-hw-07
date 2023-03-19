@@ -13,8 +13,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./js/mobile-menu.js">
     <link rel="stylesheet" href="./js/modal.js">
-    
   </head>
   <body>
     <header class="header">
@@ -34,15 +34,15 @@
           </ul>
         </address>
         <div class="header-button">
-          <button class="burger-button" type="button" data-modal-open>
+          <button class="burger-button" type="button" data-header-button-open>
             <svg class="burger-icon" width="32px" height="22px">
               <use href="./images/icons.svg#icon-burger"></use>
           </svg>          
           </button>
         </div> 
       </div>
-      <div class="header-button-menu is-hidden" data-modal>
-            <button type="button" class="modal-close" data-modal-close>
+      <div class="mobile" data-mobile>
+            <button type="button" class="header-button-close" data-header-button-close>
               <svg class="modal-close-vector" width="8px" height="8px">
                 <use href="./images/icons.svg#icon-vector"></use>
               </svg>
@@ -498,6 +498,7 @@
         </form>
       </div>
     </div>
+    <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
