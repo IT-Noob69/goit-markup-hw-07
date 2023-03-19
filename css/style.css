@@ -515,8 +515,14 @@ img {
 
                                                                                     /* ACTIVITY SECTION */
 .activity {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .activity {
   display: block;
   padding-top: 0;
+  }
 }
 
 .activity .titles {
